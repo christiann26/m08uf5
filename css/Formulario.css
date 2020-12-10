@@ -1,0 +1,29 @@
+.verde{
+    color: green;
+    text-align: center;
+}
+.naranja{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.legend1{
+    color: blue;
+    font-style: italic;
+}
+.legend2{
+    color: orange;
+    font-style: italic;
+}
+.legend3{
+    color: red;
+    font-style: italic;
+}
+.rosa{
+    background-color: pink;
+}
+
+.azul{
+    background-color: #8888e7;
+}

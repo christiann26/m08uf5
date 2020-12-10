@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Formulari</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/Formulario.css">
+</head>
+
+<body>
+    <h1 class="verde">Curriculum</h1>
+    <form action="/home/ubuntu/Escritorio/m08uf5/paginasweb/pagina1.html" method="GET">
+        <fieldset>
+            <fieldset class="naranja">
+                <legend class="legend1">Información Basica</legend>
+                <label>Nombre</label><br /><input type="text" name="nombre" value="tunombre" /><br />
+                <label>Altura en centimetros</label><br /><input type="number" min="135" max="230" /><br/>
+                <label>email</label><br /><input type="text" name="email" value="tuemail@dominio.com" /><br />
+                <label>Fecha Nacimiento</label><br /><input type="date" name="fecha de nacimiento" /><br />
+            </fieldset>
+            <fieldset class="green">
+                <legend class="legend2">Nacionalidad</legend>
+                <input type="radio" name="Española" value="Española" /> Española
+                <input type="radio" name="Comunitario" value="Comunitario" checked="checked" /> Comunitario
+                <input type="radio" name="No Comunitario" value="No Comunitario" /> No Comunitario
+            </fieldset>
+            <fieldset class="rosa">
+                <legend>Estudios</legend>
+                <select id="Estudios" name="Estudios">
+                    <option value="ESO">ESO</option>
+                    <option value="GS">GS</option>
+                    <option value="GM">GM</option>
+                </select>
+            </fieldset>
+            <fieldset class="azul">
+                <legend class="legend3">Idiomas</legend>
+                <input name="Catalan" type="checkbox" value="Catalán" /> Catalán
+                <input name="Castellano" type="checkbox" value="Castellano" /> Castellano
+                <input name="Inglés" type="checkbox" value="Inglés" /> Inglés
+                <input name="Chino" type="checkbox" value="Chino" /> Chino
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="enviar" />
+                <input type="reset" value="cancelar" />
+            </fieldset>
+        </fieldset>
+    </form>
